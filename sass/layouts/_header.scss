@@ -1,0 +1,41 @@
+/* ===== Header section ===== */
+.header {
+    display: flex;
+    align-items: center;
+    padding-top: 24px;
+    padding-bottom: 25px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.25);
+
+    &__address {
+        margin-left: auto;
+        margin-right: 50px;
+    }    
+    &__logo {
+        margin-right: 93px;
+    }
+
+    &__nav{
+        display: flex;
+        align-items: center;
+        list-style: none;
+    }
+    &__nav--item:not(:last-child){
+        margin-right: 46px;
+    }
+
+    &__underline {
+        position: relative;
+
+        &::after {
+        position: absolute;
+        display: block;
+        content: "";
+        width: 53px;
+        height: 4px;
+        background: var(--fourth-color);
+        border-radius: 2px;
+        top: 46px;
+        left: 3px;
+        }
+    }
+}

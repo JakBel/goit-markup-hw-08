@@ -1,0 +1,30 @@
+/* ===== What we do ===== */
+.content-list {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    padding-bottom: 94px;
+    list-style: none;
+
+    &__item {
+        position: relative;
+        z-index: 0;
+    }
+    &__title {
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 70px;
+        width: 100%;
+        top: 224px;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 1.14;
+        text-align: center;
+        text-transform: uppercase;
+        color: #FFF;
+        background: rgba(47, 48, 58, 0.8);
+        z-index: 2;
+    }
+}

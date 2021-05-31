@@ -1,0 +1,18 @@
+/* ===== Contacts section ===== */
+.contacts {
+    color: #757575;
+    fill: #757575;
+
+    &:hover,
+    &:focus {
+        color: var(--fourth-color);
+        fill: var(--fourth-color);
+        transition-duration: 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    &__logo {
+        padding-right: 10px;
+    }
+
+}

@@ -1,0 +1,11 @@
+/* ===== Navigation on website ===== */
+.navigation {
+    color: #212121;
+
+    &:hover,
+    &:focus {
+        color: var(--fourth-color);
+        transition-duration: 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    }
+}
