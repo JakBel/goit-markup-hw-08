@@ -1,12 +1,28 @@
 /* ===== Logo design ===== */
-.logo {
-    font-family: var(--secondary-font);
-    color:#212121;
-    font-weight: bold;
-    font-size: 26px;
-    line-height: 1.19;  
+@media screen and (min-width: 768px) {
+    .logo {
+        font-family: var(--secondary-font);
+        color:#212121;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 1.16;  
 
-    &-web {
-        color:var(--fourth-color);
+        &-web {
+            color:var(--fourth-color);
+        }
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .logo {
+        font-family: var(--secondary-font);
+        color:#212121;
+        font-weight: bold;
+        font-size: 26px;
+        line-height: 1.19;  
+
+        &-web {
+            color:var(--fourth-color);
+        }
     }
 }

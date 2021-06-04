@@ -17,7 +17,7 @@
 <body>
     <header>    
         <!-- Nawigacja -->
-        <!-- <div class="header container">
+        <div class="header container">
             <a class="logo spacing decoration-link header__logo" href="./index.html"><span class="logo-web">Web</span>studio</a>
             <nav>
                 <ul class="header__nav">
@@ -32,19 +32,21 @@
                     </li>
                 </ul>
             </nav>
-            <a class="contacts decoration-link header__address" href="mailto:info@devstudio.com">
-                <svg class="contacts__logo" width="16px" height="12px">
-                    <use href="./images/icons.svg#icon-envelope"></use>
-                </svg>
-                info@devstudio.com
-            </a>
-            <a class="contacts decoration-link" href="tel:+48111111111">
-                <svg class="contacts__logo" width="10px" height="16px">
-                    <use href="./images/icons.svg#icon-smartphone"></use>
-                </svg>
-                +48 111 111 111
-            </a>
-        </div> -->
+            <div class="header__address">
+                <a class="contacts decoration-link" href="mailto:info@devstudio.com">
+                    <svg class="contacts__logo" width="16px" height="12px">
+                        <use href="./images/icons.svg#icon-envelope"></use>
+                    </svg>
+                    info@devstudio.com
+                </a>
+                <a class="contacts decoration-link" href="tel:+48111111111">
+                    <svg class="contacts__logo" width="10px" height="16px">
+                        <use href="./images/icons.svg#icon-smartphone"></use>
+                    </svg>
+                    +48 111 111 111
+                </a>
+            </div>
+        </div>
 
         <!-- Efektywne rozwiązanie -->
         <section class="hero">
@@ -52,12 +54,12 @@
                 <h1 class="hero__text">EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
                 <button class="hero__button" type="button" data-modal-open>Zamów usługe</button>
             </div>    
-        </section> 
+        </section>   
     </header>
 
     <main>
         <!--Nasze atuty-->
-        <section class="section container">
+        <section class="container">
             <ul class="advantage">
                 <li class="advantage__item">
                     <div class="advantage__icons">
@@ -76,7 +78,7 @@
                         </svg>
                     </div>
                     <h3 class="advantage__title spacing">LOREM IPSUM</h3>
-                    <p class="advantage__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    <p class="advantage__text spacing">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                         Nam vel arcu sem. Sed non sodales dui. Interdum et malesuada</p>
                 </li>
                 <li class="advantage__item">
@@ -86,7 +88,7 @@
                         </svg>
                     </div>
                     <h3 class="advantage__title spacing">LOREM IPSUM</h3>
-                    <p class="advantage__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    <p class="advantage__text spacing">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                         Nam vel arcu sem. Sed non sodales dui. Interdum et malesuada</p>
                 </li>
                 <li class="advantage__item">
@@ -96,14 +98,14 @@
                         </svg>
                     </div>
                     <h3 class="advantage__title spacing">LOREM IPSUM</h3>
-                    <p class="advantage__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    <p class="advantage__text spacing">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                         Nam vel arcu sem. Sed non sodales dui. Interdum et malesuada</p>
                 </li>
             </ul>
         </section>
 
         <!--Czym się zajmujemy-->
-        <!-- <section class="container">
+        <section class="container hidden">
             <h2 class="main-title spacing">Czym się zajmujemy</h2>
             <ul class="content-list">
                 <li class="content-list__item">
@@ -119,7 +121,7 @@
                     <h3 class="content-list__title">Roziązania graficzne</h3>
                 </li>
             </ul>
-        </section> -->
+        </section>
 
         <!--Zespół-->
         <section class="staff">
@@ -127,7 +129,8 @@
                 <h2 class="main-title">Nasz zespół</h2>
                 <ul class="staff__list">
                     <li class="staff__list--item">
-                        <img src="./images/index/staff/John_Doe_img1.jpg" alt="John Doe" width="450" height="460">
+                        <img src="./images/index/staff/John_Doe_img1.jpg" alt="John Doe" width="270" height="260"
+                        srcset="./images/index/staff/John_Doe-tablet1@2x.jpg 2x">
                         <h3 class="staff__title spacing">John Doe</h3>
                         <p class="staff__work">Product Designer</p>
                         <ul class="staff__socialmedia">
@@ -162,7 +165,7 @@
                         </ul>
                     </li>
                     <li class="staff__list--item">
-                        <img src="./images/index/staff/John_Doe_img2.jpg" alt="John Doe" width="450" height="460">
+                        <img src="./images/index/staff/John_Doe_img2.jpg" alt="John Doe" width="270" height="260">
                         <h3 class="staff__title spacing">John Doe</h3>
                         <p class="staff__work">Frontend Developer</p>
                         <ul class="staff__socialmedia">
@@ -197,7 +200,7 @@
                         </ul>
                     </li>
                     <li class="staff__list--item">
-                        <img src="./images/index/staff/John_Doe_img3.jpg" alt="John Doe" width="450" height="460">
+                        <img src="./images/index/staff/John_Doe_img3.jpg" alt="John Doe" width="270" height="260">
                         <h3 class="staff__title spacing staf-list-item_h">John Doe</h3>
                         <p class="staff__work">Marketing</p>
                         <ul class="staff__socialmedia">
@@ -232,7 +235,7 @@
                         </ul>
                     </li>
                     <li class="staff__list--item">
-                        <img src="./images/index/staff/John_Doe_img4.jpg" alt="John Doe" width="450" height="460">
+                        <img src="./images/index/staff/John_Doe_img4.jpg" alt="John Doe" width="270" height="260">
                         <h3 class="staff__title spacing staf-list-item_h">John Doe</h3>
                         <p class="staff__work spacing">UI Designer</p>
                         <ul class="staff__socialmedia">
@@ -271,7 +274,7 @@
         </section>
 
         <!-- Nasi klienci -->
-        <section class="container section">
+        <!-- <section class="container section">
             <h2 class="main-title spacing">Nasi klienci</h2>
             <ul class="customers">
                 <li class="customers__list">
@@ -317,10 +320,10 @@
                     </a>
                 </li>
             </ul>
-        </section>
+        </section> -->
     </main>
 
-    <footer class="footer">
+    <!-- <footer class="footer">
         <div class="container footer__display">
             <div class="footer__section">
                 <a class="logo spacing footer__section--logo decoration-link" href="./index.html"><span class="logo-web">Web</span>studio</a>
@@ -391,10 +394,10 @@
                 </form>    
             </div>
         </div>
-    </footer>
+    </footer> -->
 
     <!-- Okno modalne -->
-    <!-- <div class="backdrop is-hidden" data-modal>
+    <!--<div class="backdrop is-hidden" data-modal>
         <div class="modal">
             <button type="button" class="close-btn" data-modal-close>X</button>
             <form method="POST" class="modal__form">
