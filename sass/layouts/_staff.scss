@@ -9,6 +9,10 @@
             margin-top: 30px;
             list-style: none;
         }
+        &__list--photo {
+            width: 354px;
+            height: 374px;
+        }
         &__list--item {
             display: flex;
             flex-direction: column;
@@ -67,6 +71,16 @@
     }
 }
 
+@media screen and (max-width: 1199px) {
+    .staff__list {
+        flex-wrap: wrap;
+    }
+
+    .staff__list--item {
+        margin-bottom: 30px;
+    }
+}
+
 @media screen and (min-width: 1200px) {
     .staff {
         background-color: #F5F4FA;
@@ -76,6 +90,10 @@
             justify-content: space-between;
             margin-top: 50px;
             list-style: none;
+        }
+        &__list--photo {
+            width: 270px;
+            height: 260px;
         }
         &__list--item {
             display: flex;
