@@ -10,7 +10,9 @@
 
         &__button {
             position: relative;
-            margin-left: 12px;
+            margin: 20px auto;
+            display: flex;
+            justify-content: center;
         }
         &__button--shape {
             width: 200px;
@@ -20,7 +22,7 @@
             border-radius: 4px;
             border: none;
             padding-left: 42px;
-            margin-top: 20px;
+
 
             font-family: var(--main-font);
             font-weight: bold;
@@ -35,12 +37,15 @@
         }
         &__button--send {
             position: absolute;
-            top: 47%;
-            left: 85%;
+            top: 26%;
+            left: 62%;
         }
 
         &__list {
+            display: flex;
             list-style: none;
+            flex-direction: column;
+            align-items: center;
         }
         &__list--color {
             color: rgba(255, 255, 255, 0.6);
@@ -66,7 +71,7 @@
         }
 
         &__news {
-            width: 450px;
+            width: 100%;
             height: 50px;
 
             border: 1px solid rgba(255, 255, 255, 0.3);
@@ -91,10 +96,15 @@
             }
         }
 
+        &__section2 {
+            margin: 60px 0;
+        }
+
         &__section--logo {
             color: #FFF;
             background: var(--secondary-color);
             display: flex;
+            justify-content: center;
             padding-bottom: 20px;
         }
 
@@ -131,6 +141,7 @@
             font-size: 14px;
             line-height: 16px;
             text-transform: uppercase;
+            text-align: center;
             color: #FFFFFF;
             margin-bottom: 20px;
         }
@@ -283,7 +294,7 @@
     }
 }
 
-@media screen and (max-width: 1199px) {
+@media screen and (min-width: 767px) and (max-width: 1199px) {
     .footer__button--shape {
         margin-left: 118px;
     }
