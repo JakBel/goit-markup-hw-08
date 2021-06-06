@@ -18,20 +18,20 @@
         <!-- Nawigacja -->
         <div class="header container">
             <a class="logo spacing decoration-link header__logo" href="./index.html"><span class="logo-web">Web</span>Studio</a>
-            <nav>
+            <nav class="nav__display">
                 <ul class="header__nav">
                     <li class="header__nav--item">
-                        <a class="navigation decoration-link" href="./index.html">Agencja</a>
+                        <a class="navigation decoration-link header__underline" href="./index.html">Agencja</a>
                     </li>
                     <li class="header__nav--item">
-                        <a class="navigation decoration-link portfolio-underline" href="./portfolio.html">Portfolio</a>
+                        <a class="navigation decoration-link" href="./portfolio.html">Portfolio</a>
                     </li>
                     <li class="header__nav--item">
                         <a class="navigation decoration-link" href="#">Kontakt</a>
                     </li>
                 </ul>
             </nav>
-            <div class="header__address">
+            <div class="header__address nav__display">
                 <a class="contacts decoration-link" href="mailto:info@devstudio.com">
                     <svg class="contacts__logo" width="16px" height="12px">
                         <use href="./images/icons.svg#icon-envelope"></use>
@@ -43,6 +43,13 @@
                         <use href="./images/icons.svg#icon-smartphone"></use>
                     </svg>
                     +48 111 111 111
+                </a>
+            </div>
+            <div class="modal-menu">
+                <a href="#" class="modal-menu__link" data-menu-open>
+                    <svg width="24px" height="16px">
+                        <use href="./images/icons.svg#icon-menu_24px"></use>
+                    </svg>
                 </a>
             </div>
         </div>
@@ -285,5 +292,49 @@
             </div>
         </div>
     </footer>
+
+    <!-- Okno modalne menu -->
+    <div class="menu-backdrop is-hidden-menu" data-menu>
+        <div class="window">
+            <button type="button" class="close-btn" data-menu-close>X</button>
+            <div class="window__section">
+                <ul class="window__section--link">
+                    <li class="window__section--link-text">
+                        <a class="window__section--link-style decoration-link" href="index.html">Agencja</a>
+                    </li>
+                    <li class="window__section--link-text">
+                        <a class="window__section--link-style decoration-link" href="portfolio.html">Portfolio</a>
+                    </li>
+                    <li class="window__section--link-text">
+                        <a class="window__section--link-style decoration-link" href="#">Kontakt</a>
+                    </li>
+                    <li class="window__section--link-text window__number">
+                        <a class="window__section--link-style decoration-link" href="tel:+48111111111">+48 111 111 111</a>
+                    </li>
+                    <li class="window__section--link-text">
+                        <a class="window__section--link-style decoration-link"
+                            href="mailto:info@devstudio.com">info@devstudio.com</a>
+                    </li>
+                </ul>
+    
+                <ul class="window__social-media">
+                    <li class="window__social-media--link">
+                        <a class="decoration-link window__social-media--link-color" href="#">Instagram</a>
+                    </li>
+                    <li class="window__social-media--link">
+                        <a class="decoration-link window__social-media--link-color" href="#">Twitter</a>
+                    </li>
+                    <li class="window__social-media--link">
+                        <a class="decoration-link window__social-media--link-color" href="#">Facebook</a>
+                    </li>
+                    <li class="window__social-media--link">
+                        <a class="decoration-link window__social-media--link-color" href="#">Linkedln</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+    <script src="./js/mobile-modal.js"></script>
 </body>
 </html>

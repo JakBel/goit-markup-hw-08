@@ -175,7 +175,7 @@
         &__check-label--policy {
             font-family: var(--main-font);
             font-weight: normal;
-            font-size: 14px;
+            font-size: 12px;
             line-height: 1.71;
             text-decoration-line: underline;
             color: var(--fourth-color);
@@ -205,7 +205,7 @@
     }
 }
 
-@media screen and (min0width: 1200px) {
+@media screen and (min-width: 1200px) {
     .backdrop {
         position: fixed;
         left: 0;

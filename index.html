@@ -45,7 +45,14 @@
                     </svg>
                     +48 111 111 111
                 </a>
-            </div>   
+            </div> 
+            <div class="modal-menu">
+                <a href="#" class="modal-menu__link" data-menu-open>
+                    <svg width="24px" height="16px">
+                        <use href="./images/icons.svg#icon-menu_24px"></use>
+                    </svg>
+                </a>
+            </div>  
         </div>
 
         <!-- Efektywne rozwiązanie -->
@@ -453,6 +460,48 @@
         </div>
     </div>
 
+    <!-- Okno modalne menu -->
+    <div class="menu-backdrop is-hidden-menu" data-menu>
+        <div class="window">
+            <button type="button" class="close-btn" data-menu-close>X</button>
+            <div class="window__section">
+                <ul class="window__section--link">
+                    <li class="window__section--link-text">
+                        <a class="window__section--link-style decoration-link" href="index.html">Agencja</a>
+                    </li>
+                    <li class="window__section--link-text">
+                        <a class="window__section--link-style decoration-link" href="portfolio.html">Portfolio</a>
+                    </li>
+                    <li class="window__section--link-text">
+                        <a class="window__section--link-style decoration-link" href="#">Kontakt</a>
+                    </li>
+                    <li class="window__section--link-text window__number">
+                        <a class="window__section--link-style decoration-link" href="tel:+48111111111">+48 111 111 111</a>
+                    </li>
+                    <li class="window__section--link-text">
+                        <a class="window__section--link-style decoration-link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                    </li>
+                </ul>
+                
+                <ul class="window__social-media">
+                    <li class="window__social-media--link">
+                        <a class="decoration-link window__social-media--link-color" href="#">Instagram</a>
+                    </li>
+                    <li class="window__social-media--link">
+                        <a class="decoration-link window__social-media--link-color" href="#">Twitter</a>
+                    </li>
+                    <li class="window__social-media--link">
+                        <a class="decoration-link window__social-media--link-color" href="#">Facebook</a>
+                    </li>
+                    <li class="window__social-media--link">
+                        <a class="decoration-link window__social-media--link-color" href="#">Linkedln</a>
+                    </li>
+                </ul>
+                
+            </div>
+        </div>
+    </div>    
     <script src="./js/modal.js"></script>
+    <script src="./js/mobile-modal.js"></script>
 </body>
 </html>
