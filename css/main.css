@@ -894,7 +894,7 @@ img {
     padding-top: 200px;
     padding-bottom: 200px;
     background-color: var(--secondary-color);
-    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/index/hero/hero.jpg);
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../../images/index/hero/Img.jpg);
     background-repeat: no-repeat;
     background-size: cover;
   }
