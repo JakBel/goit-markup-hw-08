@@ -3,11 +3,11 @@
     .hero {
         padding: 118px;
         background-color: var(--secondary-color);
-        background-image: linear-gradient(
+        background: linear-gradient(
             rgba(47, 48, 58, 0.4),
             rgba(47, 48, 58, 0.4)
-        ), 
-        url(../../images/index/hero/hero-mobile.jpg);
+        ); 
+        background-image: url(../images/index/hero/hero-mobile.jpg);
         background-repeat: no-repeat;
         background-size: cover;
 
@@ -67,11 +67,7 @@
     (min-resolution: 192dpi) and (min-width: 320px),
     (min-resolution: 2dppx) and (min-width: 320px) {
     .hero {
-       background-image: linear-gradient(
-            rgba(47, 48, 58, 0.4),
-            rgba(47, 48, 58, 0.4)
-        ), 
-        url(../../images/index/hero/hero-mobile@2x.jpg);
+        background-image: url(../images/index/hero/hero-mobile@2x.jpg);
         background-repeat: no-repeat;
         background-size: cover; 
     }
@@ -82,11 +78,11 @@
     .hero {
         padding: 118px;
         background-color: var(--secondary-color);
-        background-image: linear-gradient(
+        background: linear-gradient(
             rgba(47, 48, 58, 0.4),
             rgba(47, 48, 58, 0.4)
-        ), 
-        url(../../images/index/hero/hero-tablet.jpg);
+        ); 
+        background-image: url(../images/index/hero/hero-tablet.jpg);
         background-repeat: no-repeat;
         background-size: cover;
 
@@ -147,11 +143,7 @@
     (min-resolution: 192dpi) and (min-width: 768px),
     (min-resolution: 2dppx) and (min-width: 768px) {
     .hero {
-       background-image: linear-gradient(
-            rgba(47, 48, 58, 0.4),
-            rgba(47, 48, 58, 0.4)
-        ), 
-        url(../../images/index/hero/hero-tablet@2x.jpg);
+        background-image: url(../images/index/hero/hero-tablet@2x.jpg);
         background-repeat: no-repeat;
         background-size: cover; 
     }
@@ -163,11 +155,11 @@
         padding-top: 200px;
         padding-bottom: 200px;
         background-color: var(--secondary-color);
-        background-image: linear-gradient(
+        background: linear-gradient(
             rgba(47, 48, 58, 0.4),
             rgba(47, 48, 58, 0.4)
-        ), 
-        url(../../images/index/hero/Img.jpg);
+        );
+        background-image: url(../images/index/hero/Img.jpg);
         background-repeat: no-repeat;
         background-size: cover;
 
@@ -227,12 +219,8 @@
   (-webkit-min-device-pixel-ratio: 2) and (min-width: 1200px),
   (min-resolution: 192dpi) and (min-width: 1200px),
   (min-resolution: 2dppx) and (min-width: 1200px) {
-      .hero {
-          background-image: linear-gradient(
-            rgba(47, 48, 58, 0.4),
-            rgba(47, 48, 58, 0.4)
-        ), 
-        url(../../images/index/hero/hero@2x.jpg);
+      .hero { 
+        background-image: url(../images/index/hero/hero@2x.jpg);
         background-repeat: no-repeat;
         background-size: cover;
       }
